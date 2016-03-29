@@ -36,7 +36,7 @@ add_note(solo, bass, blues_scale[0], 1.0, beats_per_minute, 1.0)
 curr_note = 0
 add_note(solo, bass, blues_scale[curr_note], 1.0, beats_per_minute, 1.0)
 
-licks = [ [ [1,0.5], [1,0.5], [1, 0.5], [1, 0.5] ],[ [-1, 0.5], [-1, 0.5], [-1, 0.5], [-1, 0.5] ] ]
+licks = [ [ [1,0.5*1.1], [1,0.5*.9], [1, 0.5*1.1], [1, 0.5*.9] ],[ [-1, 0.5*.9], [-1, 0.5*1.1], [-1, 0.5*.9], [-1, 0.5*1.1] ] ]
 
 for lick in range(8):
     lick = choice(licks)
